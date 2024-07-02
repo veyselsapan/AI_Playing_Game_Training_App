@@ -1,0 +1,23 @@
+/src/FSM/fsm.py: Contains the implementation of the Finite State Machine for Kane.
+/src/FSM/fsm_utils.py: Provides utility functions for the FSM.
+/src/DQN/dqn.py: Implements the Deep Q-Network for Abel.
+/src/DQN/cnn_architecture.py: Defines the custom CNN architecture used in the DQN.
+/src/DQN/training_utils.py: Includes training utilities for the DQN.
+/src/Common/game_env.py: Wraps the OpenAI Gym environment for easier integration.
+/src/Common/performance_logger.py: Logs performance metrics during training and evaluation.
+/src/Common/config.py: Contains configuration settings for the application.
+/src/main.py: The main entry point for running the application.
+/src/gui.py: Implements the graphical user interface for the application.
+/src/utils.py: Common utility functions used throughout the project.
+/data/models/fsm_model.pkl: Saved FSM model.
+/data/models/dqn_model.pth: Saved DQN model.
+/data/performance_logs/performance.csv: Logs of model performance metrics.
+/docs/user_guide.md: User guide and documentation for using the application.
+/docs/technical_docs.md: Technical documentation for developers.
+/tests/test_fsm.py: Unit tests for the FSM implementation.
+/tests/test_dqn.py: Unit tests for the DQN implementation.
+/tests/test_gui.py: Unit tests for the GUI.
+/tests/test_utils.py: Unit tests for utility functions.
+requirements.txt: Lists the dependencies and libraries needed for the project.
+README.md: Provides an overview of the project and setup instructions.
+setup.py: Script for setting up the application.
