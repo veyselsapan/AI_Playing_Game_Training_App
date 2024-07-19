@@ -84,19 +84,22 @@ Kane-and-Abel/
 │   ├── technical_docs.md       # Technical documentation for developers
 ├── src/
 │   ├── Common/
-│   │   ├── config.py           # Configuration settings
+│   │   ├── __init__.py         
 │   │   ├── game_env.py         # Game environment wrapper
-│   │   ├── performance_logger.py  # Performance logging utility
 │   ├── DQN/
+│   │   ├── __init__.py 
 │   │   ├── cnn_architecture.py # Custom CNN architecture for DQN
 │   │   ├── dqn.py              # DQN implementation
 │   │   ├── training_utils.py   # Training utilities for DQN
 │   ├── FSM/
+│   │   ├── __init__.py 
 │   │   ├── fsm.py              # FSM implementation for Kane
 │   │   ├── fsm_utils.py        # Utility functions for FSM
+│   ├── __init__.py 
 │   ├── gui.py                  # Graphical user interface implementation
 │   ├── main.py                 # Main entry point for the application
 ├── tests/
+│   ├── __init__.py 
 │   ├── test_fsm.py             # Unit tests for FSM implementation
 │   ├── test_dqn.py             # Unit tests for DQN implementation
 │   ├── test_gui.py             # Unit tests for GUI
