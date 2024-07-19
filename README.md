@@ -22,7 +22,7 @@ To run this project locally, follow these steps:
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/veyselsapan/AI_Playing_Game_Training_App.git
-   cd Kane-and-Abel
+   cd AI_Playing_Game_Training_App
    ```
 
 2. **Create a virtual environment:**
