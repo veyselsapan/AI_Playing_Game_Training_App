@@ -1,9 +1,6 @@
 # src/DQN/training_utils.py
 
 import os
-import datetime
-import shutil
-import torch
 from stable_baselines3 import DQN
 from stable_baselines3.common.callbacks import EvalCallback
 
@@ -43,7 +40,7 @@ def load_model(env, model_path):
     else:
         raise FileNotFoundError(f"No model found at the specified path: {model_path}")
 
-def create_model(env, policy_kwargs={}):
+def create_model(env, policy_kwargs={}, log_dir=None):
     """
     Creates a new model.
     
@@ -55,7 +52,7 @@ def create_model(env, policy_kwargs={}):
     DQN: The newly created DQN model.
     """
     print("Creating a new model.")
-    model = DQN('CnnPolicy', env, policy_kwargs=policy_kwargs, verbose=1, buffer_size=10000, tensorboard_log='/home/veysel/University_of_London/CM3070_FP/data/training/logs')
+    model = DQN('CnnPolicy', env, policy_kwargs=policy_kwargs, verbose=1, buffer_size=10000, tensorboard_log=log_dir)
     return model
 
 def train_model(model, total_timesteps=500, eval_callback=None):

@@ -12,16 +12,16 @@ sys.path.append(project_root)
 
 # Ensure the same environment as used in the main code
 from src.Common.game_env import create_env
-#from src.DQN.cnn_architecture import CustomCNN
 from src.DQN.training_utils import load_model
 
 
 def main():
     env_name = 'Breakout-v4'
-    model_path = '/home/veysel/University_of_London/CM3070_FP/data/models/DoubleDQN_CustomCNN_Breakout_Updated_small_buffer_size_CPU.zip'
+    # Path to model file
+    model_path = '/home/veysel/University_of_London/stable_baselines3_DQN_Agent_Application/data/models/DoubleDQN_CustomCNN_Breakout_Updated_small_buffer_size_CPU.zip' 
 
     # Create environment
-    env = create_env(env_name)
+    env = create_env(env_name, n_envs=1, n_stack=4)
     
   
     # Load or create model
@@ -33,10 +33,9 @@ def main():
         action, _states = model.predict(obs, deterministic=True)  # Use deterministic=True for evaluation
         print("Action taken:", action)
         obs, rewards, dones, info = env.step(action)
-        print("Observation:", obs)
         env.render(mode='human')  # Explicitly use 'human' mode for rendering
         time.sleep(0.1)  # Add delay to slow down the rendering
-        if dones.any():
+        if True in dones:
             print("Episode finished.")
             break
     env.close()
