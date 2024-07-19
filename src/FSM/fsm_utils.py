@@ -31,11 +31,11 @@ def run_fsm_performance(fsm_file_path, env_name, episodes=5):
     """
     from FSM.fsm import FSMAgent  # Moved import here to avoid circular dependency
     fsm_agent = FSMAgent.load(fsm_file_path)
-    fsm_agent.ball_released = False
     env = create_single_env(env_name)
     total_score = 0
     # Loop through each episode to evaluate the FSM agent
     for episode in range(episodes):
+        fsm_agent.ball_released = False
         state = env.reset()
         done = False
         score = 0
