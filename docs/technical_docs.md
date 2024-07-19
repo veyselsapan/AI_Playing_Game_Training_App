@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This document provides a detailed technical overview of the AI Training Interface application. The application is designed to train, monitor, and evaluate AI agents playing Atari 2600 game using different machine learning models, specifically a custom CNN-based Deep Q-Network (DQN) and a Finite State Machine (FSM).
+This document provides a detailed technical overview of the AI Training Interface application. The application is designed to train, monitor, and evaluate AI agents playing Atari 2600 games using different machine learning models, specifically a custom CNN-based Deep Q-Network (DQN) and a Finite State Machine (FSM).
 
 ## Application Structure
 
@@ -128,6 +128,6 @@ The agent's performance is monitored in the game environment and recorded as a v
 
 ## Conclusion
 
-This document has provided a detailed technical overview of the AI Playing Games Training Interface application. The application enables users to train, monitor, and evaluate AI agents playing the Atari 2600 games using different machine learning models. The key components of the application have been described, along with the technical details of the environment creation, model training, model saving, agent monitoring, and TensorBoard visualization processes.
+This document has provided a detailed technical overview of the AI Playing Games Training Interface application. The application enables users to train, monitor, and evaluate AI agents playing Atari 2600 games using different machine learning models. The key components of the application have been described, along with the technical details of the environment creation, model training, model saving, agent monitoring, and TensorBoard visualization processes.
 
 For further information or assistance, please refer to the user guide provided in the `docs/user_guide.md` file.
