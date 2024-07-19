@@ -1,8 +1,8 @@
-# User Guide for Breakout AI Training Interface
+# User Guide for AI Playing Games Training Interface
 
 ## Introduction
 
-This user guide provides step-by-step instructions on how to use the AI Training Interface application. The application enables users to train, monitor, and evaluate AI agents playing the game Breakout using different machine learning models, specifically a custom CNN-based Deep Q-Network (DQN) and a Finite State Machine (FSM).
+This user guide provides step-by-step instructions on how to use the AI Playing Games Training Interface application. The application enables users to train, monitor, and evaluate AI agents playing Atari 2600 game using different machine learning models, specifically a custom CNN-based Deep Q-Network (DQN) and a Finite State Machine (FSM).
 
 ## Launching the Application
 
@@ -100,4 +100,4 @@ The main window of the application will appear, providing access to various func
 
 ## Conclusion
 
-This user guide provides detailed instructions on how to use the Breakout AI Training Interface application. The application enables users to train, monitor, and evaluate AI agents playing the game Breakout using different machine learning models. For further assistance or information, please refer to the technical documentation provided in the `docs/technical_docs.md` file.
+This user guide provides detailed instructions on how to use the AI Playing Games Training Interface application. The application enables users to train, monitor, and evaluate AI agents playing Atari 2600 games using different machine learning models. For further assistance or information, please refer to the technical documentation provided in the `docs/technical_docs.md` file.
