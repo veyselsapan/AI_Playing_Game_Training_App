@@ -75,7 +75,7 @@ The graphical user interface (GUI) will open, allowing you to:
 The project is organized as follows:
 
 ```
-Kane-and-Abel/
+AI_Playing_Game_Training_App/
 ├── data/
 │   ├── models/                 # Saved FSM and DQN models
 │   ├── performance_logs/       # Logs of model performance metrics
