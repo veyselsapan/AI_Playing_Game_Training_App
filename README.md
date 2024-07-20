@@ -93,7 +93,7 @@ AI_Playing_Game_Training_App/
 │   │   ├── training_utils.py   # Training utilities for DQN
 │   ├── FSM/
 │   │   ├── __init__.py 
-│   │   ├── fsm.py              # FSM implementation for Kane
+│   │   ├── fsm.py              # FSM implementation
 │   │   ├── fsm_utils.py        # Utility functions for FSM
 │   ├── __init__.py 
 │   ├── gui.py                  # Graphical user interface implementation
