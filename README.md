@@ -102,9 +102,8 @@ AI_Playing_Game_Training_App/
 │   ├── __init__.py 
 │   ├── test_fsm.py             # Unit tests for FSM implementation
 │   ├── test_dqn.py             # Unit tests for DQN implementation
-│   ├── test_gui.py             # Unit tests for GUI
-│   ├── test_utils.py           # Unit tests for utility functions
-│   ├── test_render.py          # Tests for monitoring agent in the game environment
+│   ├── test_render.py          # Tests for monitoring DQN agent in the game environment
+│   ├── test_render_fsm.py      # Tests for monitoring FSM agent in the game environment
 ├── requirements.txt            # List of dependencies
 └── README.md                   # Project overview and setup instructions
 ```
